@@ -6,7 +6,7 @@
 ---
 
 ### 👋 Introduction
-> Hi, I'm Nelda. I am a 3rd-year student in the IBPI department.
+Hi, I'm Nelda. I am a 3rd-year student in the IBPI department.
 
 
 ### 📁 About This Repository
