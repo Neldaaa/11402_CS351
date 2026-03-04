@@ -1,7 +1,7 @@
 # IN321: Course Assignments
 
-| **Name** | 阮清閒 NELDA |
-| **Student ID** | 1123564 |
+* **Name:** 阮清閒 (Nelda)
+* **Student ID:** 1123564
 
 ---
 
