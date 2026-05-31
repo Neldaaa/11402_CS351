@@ -1,7 +1,6 @@
 # 🚀 Course Projects - CS351: AI-assisted Software Development
 <div align="justify">
-This directory serves as the central hub linking to my separate project repositories for the CS351 course. To meet the Final Demo requirements, each project is hosted in its own independent repository to demonstrate repository hygiene, proper project structure, and isolated development environments.
-</div>
+This directory serves as the central hub linking to my separate project repositories for the CS351 course. To meet the Final Demo requirements, each project is hosted in its own independent repository to demonstrate repository hygiene, proper project structure, and isolated development environments. </div>
 
 ## 1. Project 0: Two Sum
 🔗 **Repository Link:** [Project 0](https://github.com/Neldaaa/11402_CS351_Project0)
