@@ -1,4 +1,4 @@
-# Assignment II: SDD, BDD, and TDD in AI-Assisted Software Development
+# Assignment II - SDD, BDD, and TDD in AI-Assisted Software Development
 
 ## 📝 About This Assignment
 <div align="justify">
