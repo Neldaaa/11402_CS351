@@ -1,22 +1,22 @@
 # Assignment I: Git/GitHub & GitHub Pages
 
 ## 📝 About This Assignment
-The objective of this assignment was to practice the basics of version control using Git, manage repositories on GitHub, write clear documentation using Markdown, and publish a static personal portfolio using GitHub Pages[cite: 2].
+The objective of this assignment was to practice the basics of version control using Git, manage repositories on GitHub, write clear documentation using Markdown, and publish a personal portfolio using GitHub Pages.
 
 ## 🚀 How It Was Done
-1. **Account & Profile Setup:** Updated my GitHub profile with my real name (Nelda - 阮清閒), avatar, and academic bio.
+1. **Account & Profile Setup:** Updated my GitHub profile with my real name (Nelda - 阮清閒), profile , and academic bio.
 2. **Repository Creation:**
-   - Created the course repository `11402_CS351` to store all my academic work.
    - Created the personal website repository `Neldaaa.github.io`.
-3. **Documentation:** Wrote descriptive `README.md` files for both repositories using standard Markdown formatting (headings, lists, links).
-4. **Deployment:** Enabled GitHub Pages from the repository settings to deploy my pure HTML/CSS/JS portfolio live on the web.
+   - Created the course repository `11402_CS351` to store all my academic work.
+4. **Documentation:** Wrote descriptive `README.md` files for both repositories using standard Markdown formatting (headings, lists, links).
+5. **Deployment:** Enabled GitHub Pages from the repository settings to deploy my pure HTML/CSS/JS portfolio live on the web.
 
 ## 🏆 Results & Deliverables
 
 Below are the official links submitted for this assignment:
 
 ### Student Info
-- **Name:** Nguyen Thanh Nhan (Nelda)
+- **Name:** 阮清閒 (Nelda)
 - **Student ID:** 1123564
 - **GitHub Username:** Neldaaa
 - **GitHub Profile:** [https://github.com/Neldaaa]
