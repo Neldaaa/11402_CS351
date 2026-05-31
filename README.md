@@ -27,6 +27,6 @@ This repository serves as my central portfolio for the CS351 course. It contains
 
 ## Git Workflow Evidence
 Throughout this course, I strictly followed the Jira + GitHub + VS Code workflow:
-- Created branches for every assignment and feature (e.g., `/assignment1`).
+- Created branches for every assignment and feature (e.g., `assignment/assignment1`).
 - Used meaningful commit messages.
 - Created Pull Requests (PRs) and merged them into `main`.
