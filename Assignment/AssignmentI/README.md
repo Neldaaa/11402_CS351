@@ -11,7 +11,7 @@ The objective of this assignment was to practice the basics of version control u
 4. **Documentation:** Wrote descriptive `README.md` files for both repositories using standard Markdown formatting (headings, lists, links).
 5. **Deployment:** Enabled GitHub Pages from the repository settings to deploy my pure HTML/CSS/JS portfolio live on the web.
 
-## 🏆 Results & Deliverables
+## 🏆 Results 
 
 Below are the official links submitted for this assignment:
 
