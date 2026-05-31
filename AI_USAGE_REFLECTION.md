@@ -1,23 +1,37 @@
 # Comprehensive Learning & AI Usage Reflection
 
-## 1. The Evolution of My AI Workflow (Quá trình thay đổi cách dùng AI)
+- **Student Name:** 阮清閒 
+- **Student ID:** 1123564
+- **Course:** CS351: AI-assisted Software Development
 
-**Phase 1: The "Blind Trust" Stage (Early Course)**
-Initially, I treated AI as a shortcut to generate code quickly[cite: 2]. My prompts were unstructured (e.g., *"Write a C++ Two Sum function"*). The result was code that technically compiled but lacked proper error handling, ignored project file structures, and failed on edge cases like duplicate numbers[cite: 3]. I spent more time debugging AI hallucinations than actually engineering the software.
+## 1. How My AI Workflow Changed
 
-**Phase 2: The "Guardrail" Stage (Assignment II & Project 0)**
-Learning about SDD, BDD, and TDD completely shifted my mindset[cite: 2]. I realized AI needs strict boundaries. I stopped asking AI to write logic first. Instead, I wrote the Specifications (SDD) and Test Cases (TDD) manually[cite: 2]. 
-*   *My New Prompting Style:* I started feeding the AI exact constraints. For Project 0, I prompted: *"Write a C++20 `twoSumHashTable` function[cite: 3]. It must return `[-1, -1]` if no pair exists and handle duplicate values like `nums = [3, 3, 4], target = 6`[cite: 3]. Do not use external libraries."* This resulted in highly accurate code on the first try.
+**Phase 1: Just Asking for Code (The Beginning)**
+<div align="justify">
+At the start of the course, I just asked AI tools simple questions like, "Write a C++ Two Sum function". The AI gave me code very fast, but it caused a lot of problems. The code didn't match my project's file structure, and it failed when I tested it with duplicate numbers. I spent more time fixing the AI's mistakes than actually learning. </div>
 
-**Phase 3: The "Engineering Partner" Stage (Project B)**
-By Project B (CSV Mini Database), I stopped using AI to write entire modules. Instead, I used it for highly targeted tasks[cite: 4]:
-*   **Debugging CI/CD:** When my Docker container failed to build on Ubuntu 22.04[cite: 4], I provided the AI with the CMake error logs. Rather than asking for code, I asked it to *explain the cause* of the linking error, which helped me deeply understand C++ compilation.
-*   **Brainstorming Edge Cases:** I used AI to brainstorm complex Gherkin (Given-When-Then) scenarios for malformed CSV inputs (TC-015)[cite: 4]. This ensured my Test Plan was bulletproof before I wrote the Query Engine logic.
+**Phase 2: Learning to Give Rules (Assignment 2 & Project 0)**
+<div align="justify">
+  
+When I learned about SDD (Specification-Driven Development), BDD (Behavior-Driven Development), and TDD (Test-Driven Development), my way of working completely changed. I realized that AI is just a fast typist, I have to be the engineer. I started writing the rules *before* I opened the AI chat. 
+*   **My New Prompt Style:** Instead of a general request, I gave the AI exact instructions. For Project 0, I told the AI: "Write a C++20 `twoSumHashTable` function. It must return `[-1, -1]` if there is no pair, and it must handle duplicate numbers properly." Because I gave strict rules, the AI gave me exactly what I needed on the first try. </div>
 
-## 2. What I Actually Learned (Reflection beyond the code)
+**Phase 3: Using AI to Debug and Learn (Project B)**
+<div align="justify">
+  
+By the time I worked on Project B (the CSV Mini Database), I stopped using AI to write big files of code. I only used it to help me fix hard bugs. 
+*   **Fixing Docker & CMake:** When my Docker container failed to build the project, I copied the CMake error log into the AI. I didn't ask the AI to just give me the fixed code. I asked it to *explain* why it was failing. This actually helped me learn how C++ compiling work. </div>
 
-Submitting working code is only a fraction of software engineering. Through this course, I learned:
+## 2. What I Really Learned in This Course
+<div align="justify">
+  
+Writing code is only a small part of software engineering. My biggest takeaways are:
 
-*   **Standards Precede Generation:** Generating code is easy; maintaining it is the real challenge. I learned that defining strict Day 1 standards (e.g., file naming, `snake_case` for variables, `PascalCase` for classes) is mandatory before opening an AI prompt[cite: 2]. Without these rules, AI will destroy a repository's consistency.
-*   **Traceability is King:** I learned how to link an Intended Use document to a Jira ticket, a Git branch, a Pull Request, and finally a unit test[cite: 2]. If AI generates a feature that cannot be traced back to an explicit requirement in `02_SRS.md`, it is out of scope and must be rejected[cite: 2].
-*   **TDD as the Ultimate AI Validator:** I no longer read AI-generated code and assume it works. For Project B, I wrote the test suite (`TC-001` to `TC-016`) first[cite: 4]. If the AI's execution logic failed my tests, I knew the AI was wrong. This mindset shifted my role from a "code typist" to a "system reviewer."
+*   **Rules Must Come First:** I learned that if I don't make sure about basic rules before I start, the AI will make the project very messy. I have to set the standards first, and then force the AI to follow them.
+*   **Tests Prove the Truth (TDD):** I used to look at AI code and just guess if it was correct. For Project B, I wrote test cases manually *before* finishing the main code. When the AI helped me write the query filtering logic, I ran my tests. If the tests failed, I knew the AI was wrong and I made it fix the logic. The tests protected my project.
+*   **Connecting the Steps:** I learned how to be organized. Every change I made was connected. A project idea became a Jira story, which became a Git branch, which turned into a Pull Request, and finally got merged into `main`. This showed me how real software teams work together safely.
+</div>
+<div align="justify">
+
+***Conclusion: This course taught me that AI cannot replace the human engineering process, it requires the engineering process to function properly. AI is a powerful assistant for writing boilerplate code or finding syntax errors, but it lacks the critical thinking needed to design system architecture or understand user needs. SDD, BDD, and TDD are the necessary guardrails that keep AI-assisted development safe, traceable, and professional. We must remain the architects, using AI strictly as our builder.***
+</div>
